@@ -9,3 +9,48 @@ margin-top: 10px;
 height: 200px;
 height: 200px;
 }
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.car {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+}
+
+.car img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.car h3 {
+    margin: 10px 0;
+}
+
+.car p {
+    color: #555;
+}
+
+.car button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+.car button:hover {
+    background-color: #0056b3;
+}
