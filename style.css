@@ -1,13 +1,26 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .foto1, .foto2, .foto3{
-height: 200px;
-width: 250px;
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .columna{
-    background-color: rgb(214, 212, 212);
-margin-top: 10px;
-height: 200px;
-height: 200px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    height: 200px;
+    height: 200px;
 }
 
 .car-container {
