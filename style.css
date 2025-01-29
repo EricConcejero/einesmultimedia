@@ -1,0 +1,11 @@
+.foto1, .foto2, .foto3{
+height: 200px;
+width: 250px;
+}
+
+.contenedor1, .contenedor2, .contenedor3{
+background-color: black;
+margin-top: 10px;
+height: 200px;
+height: 200px;
+}
